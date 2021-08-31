@@ -1,0 +1,33 @@
+.add {
+      background-color: #f09d51;
+      border: 1px solid #f09d51; 
+}
+.add:hover {
+      color: #fff;
+}
+.hairstyle {
+      margin-left: 20px;
+      margin-right: 20px;
+      //color: #f09d51;
+
+      min-height: calc(15vh - 10px);
+      display: grid;
+      align-items: center;
+      //justify-content: center;
+
+      //text-align: center;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 3rem;
+      //padding-left: 1rem;
+     // padding-right: 1rem;
+      border-radius: 0.5rem;
+      font-size: 3rem;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 6px rgba(0,0,0,.3), 3px 3px 0 #eeb21a; 
+      letter-spacing: 2px; 
+      //margin-bottom: 40px; 
+}
+.hairstyles {
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr; 
+}

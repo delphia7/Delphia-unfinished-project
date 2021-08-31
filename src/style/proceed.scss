@@ -1,0 +1,25 @@
+.background-image {
+      background-image: url(../../static/assets/images/background/thebraid.jpg);
+      //padding: 100%;
+     // height: 100%;
+     //width: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+.navbar {
+      display: flex;
+      grid-template-rows: 5rems 1fr;
+      grid-template-columns: 1fr;
+}
+.right-side {
+      display: grid;
+}
+.footer {
+      display: flex;
+      grid-area: footer;
+      justify-content: center;
+      align-items: center;
+}
